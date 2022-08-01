@@ -1,0 +1,85 @@
+body{
+    box-sizing: border-box;
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url("nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-size: 100% 100%;
+}
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.clock{
+    display: flex;
+
+}
+
+.box{
+    font-family: 'LED Digital 7', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin:10px;
+    padding: 8px
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 166, 255);
+    height: 20px;
+    width:100px;
+    margin:5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#name2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 252, 71, 0.514);
+    height: 20px;
+    width:50px;
+    margin:10px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+
+#hour{
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background-color: rgb(71, 166, 255);
+    height: 50px;
+    width:100px;
+}
+#minute{
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background-color: rgb(71, 166, 255);
+    height: 50px;
+    width:100px;
+}
+#seconds{
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background-color: rgb(71, 166, 255);
+    height: 50px;
+    width:100px;
+}
